@@ -13,6 +13,6 @@ public class ModBlocks {
 	public static List <Block> BLOCKS = new ArrayList<Block>();
 	
 	
-	public static final Block GALAXY_OPAL_BLOCK = new BlockBase("Galaxy Opal Block", Material.FIRE);
+	public static final Block GALAXY_OPAL_BLOCK = new BlockBase("Galaxy Opal Block", Material.IRON);
 
 }

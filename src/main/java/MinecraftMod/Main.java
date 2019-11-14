@@ -1,5 +1,6 @@
 package MinecraftMod;
 
+import MinecraftMod.init.ModRecipes;
 import MinecraftMod.proxy.CommonProxy;
 import MinecraftMod.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -26,7 +27,7 @@ public class Main {
 
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
-
+		ModRecipes.init();
 	}
 
 	@EventHandler

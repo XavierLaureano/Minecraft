@@ -9,4 +9,5 @@ public class Reference {
 	public static final String CLIENT_PROXY_CLASS = "MinecraftMod.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "MinecraftMod.proxy.CommmonProxy";
 
+	public static final int GUI_TOTEM = 0;
 }

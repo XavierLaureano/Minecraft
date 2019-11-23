@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import MinecraftMod.Blocks.BlockBase;
+import MinecraftMod.Blocks.BlockTotem;
 import MinecraftMod.Blocks.Galaxy_Opal_Block;
 import MinecraftMod.Blocks.RubyOre;
 import net.minecraft.block.Block;
@@ -18,5 +19,6 @@ public class ModBlocks {
 	public static final Block GALAXY_OPAL_BLOCK = new Galaxy_Opal_Block("galaxy_opal_block", Material.IRON);
 	public static final Block RUBY_ORE = new RubyOre("ruby_ore", Material.ROCK);
 
+	public static final Block TOTEM = new BlockTotem("totem");
 
 }

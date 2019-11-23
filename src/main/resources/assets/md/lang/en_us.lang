@@ -1,2 +1,4 @@
 item.ruby.name=Ruby
-tile.galaxy_opal_block.name="Galaxy Opal"
+
+tile.galaxy_opal_block.name = Galaxy Opal
+tile.ruby_ore.name = Ruby Ore

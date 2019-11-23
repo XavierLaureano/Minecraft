@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R R",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "md:ruby"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "md:ruby_chestplate",
+        "count": 1
+    }
+}

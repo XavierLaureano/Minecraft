@@ -33,6 +33,7 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 14, new int[] {2,5,7,3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F);
 	//ITEMS
 	public static final Item RUBY = new ItemBase("ruby");
+	public static final Item POKE = new ItemBase("poke");
 	
 	//TOOLS
 	public static final ItemSword RUBY_SWORD =	new ToolSword("ruby_sword",MATERIAL_RUBY);

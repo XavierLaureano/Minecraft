@@ -5,7 +5,6 @@ import MinecraftMod.init.ModBlocks;
 import MinecraftMod.init.ModItems;
 import MinecraftMod.util.IHasModel;
 import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;

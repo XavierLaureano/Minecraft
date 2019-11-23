@@ -2,7 +2,6 @@ package MinecraftMod.Blocks.tileentity;
 
 import MinecraftMod.Blocks.container.ContainerTotem;
 import MinecraftMod.util.Reference;
-import net.minecraft.client.renderer.texture.ITickable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.SoundEvents;
@@ -11,6 +10,7 @@ import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.util.ITickable;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -152,9 +152,4 @@ public class TileEntityTotem extends TileEntityLockableLoot implements ITickable
 		this.world.notifyNeighborsOfStateChange(pos, this.getBlockType(), false);
 	}
 
-	@Override
-	public void tick() {
-		
-	}
-	
 }
